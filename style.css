@@ -10,9 +10,7 @@ body{
 #fondo {
     background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
     url(img/fondo_bosque.jpg) no-repeat center center fixed;
-    background-size: cover; 
-    size: 100vw;
-    z-index: 1;
+    background-size: cover;     
     border: 3px solid blue;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5), 1px 1px 20px rgba(255, 255, 255, 0.5), 1px -1px 10px rgba(255, 255, 255, 0.5);
@@ -44,15 +42,14 @@ body{
 
 .texto{
     color: white;
-    width: 400px;
-    height: 500px;
+    
+    
     text-align: center;
 }
 
 .cartel{
     
-    width: 400px;
-    height: 300px;
+    
     text-align: center;
     align-items: center;
     border: 2px;
@@ -230,6 +227,17 @@ body{
     
 }
 
+@media screen and (max-width:800px){
+    #libro {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:800px){
+    #libro {
+        width: 300px;
+    }
+}
 
 
 
